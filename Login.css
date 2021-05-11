@@ -1,0 +1,77 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #062e5c;
+  }
+  
+  #root {
+    height: 100vh;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  #ContenedorLogin {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    align-items: center;
+  }
+  
+  #Desarrollo, #FormularioLogin {
+    color: white;
+    width: 40vw;
+    border: 5px solid green;
+  }
+  #Cabecera {
+    color: white;
+    font-size: 2.5em;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+  }
+
+  .IngInput {
+    border-radius: 0;
+    padding: 15px 20px;
+    width: 100%;
+  }
+  
+  .button {
+      color: #fff !important;
+      text-transform: uppercase;
+      text-decoration: none;
+      background: #0aabeb;
+      padding: 20px;
+      border-radius: 5px;
+      display: inline-block;
+      border: none;
+      width: 60%;
+  }
+  
+  .olvidado{
+    background: black;
+  }
+  a{
+    color: white;
+  }
+  a:hover{
+      color:#9192ac;
+  }
+  @media (min-width: 320px) and (max-width: 480px) {
+    #ContenedorLogin {
+      height: 100%;
+    }
+  
+    #Desarrollo, #FormularioLogin {
+      width: 90%;
+    }
+  
+  
+  }
+  
+  button:focus {
+    outline: 0;
+  }
